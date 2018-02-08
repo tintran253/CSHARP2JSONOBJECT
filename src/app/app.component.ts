@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
         fn.push(rs);
       }
     });
-    return _.join(fn, ';');
+    return _.join(fn, ';\r\n');
 
   }
 
