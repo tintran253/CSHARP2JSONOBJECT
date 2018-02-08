@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-grid-list cols="2" style="height:80%;">
+  <mat-grid-tile style="background-color: lightblue;">
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="C#" [(ngModel)]="input" (change)="inputChange($event)" rows=30></textarea>
+    </mat-form-field>
+  </mat-grid-tile>
+  <mat-grid-tile style="background-color: lightgreen;">
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="JS" rows=30 [(ngModel)]="output"></textarea>
+    </mat-form-field>
+  </mat-grid-tile>
+</mat-grid-list>
